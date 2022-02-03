@@ -12,6 +12,7 @@ body, a {
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 100px;
 }
 
 .logo {
@@ -35,4 +36,49 @@ a {
     margin: 0;
     color: #fff;
     font-weight: bold;
+}
+
+/* seção main */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+ 
+/* seção img */
+
+.background {
+    width: 650px;
+    box-shadow: 10px 10px 6px #FF5D5F;
+}
+
+/* seção contact */
+
+.subtitle {
+    font-weight: 700;
+    font-size: 100px;
+    color: #5D3DC7;
+    margin-bottom: 30px;
+}
+
+.box {
+    display: inline-block;
+    width: 600px;
+    height: 155px;
+}
+
+.text {
+    font-size: 30px;
+    color: #707070;
+}
+
+.contact .button {
+    display: block;
+    margin-top: 30px;
+}
+
+.contact .button a {
+    font-size: 43px;
 }
